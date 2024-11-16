@@ -1,0 +1,204 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+/*start register form */
+.form-register{
+  width: 40%;
+  margin: 2rem auto;
+  padding: 15px;
+  background-color: #f8f9fa;
+  border-radius: 5px;
+  box-shadow: 0 0 20px 0 hsl(204, 70%, 53%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.form-register form{
+  width: 90%;
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+}
+.form-register h1{
+  margin-bottom: 10px;
+  text-align: center;
+  font-weight: 600;
+  font-size: 28px;
+  position: relative;
+}
+.form-register h1::after{
+  content: '';
+  position: absolute;
+  display: block;
+  width: 60px;
+  height: 3px;
+  margin-top: 20px;
+  background-color: hsl(204, 70%, 53%);
+  left: 50%;
+  transform: translateX(-50%);
+}
+.form-register form label {
+  margin-bottom: 5px;
+  font-weight: 600;
+  font-size: 16px;
+  margin-left: 10px;
+}
+.form-register form input{
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+}
+.form-register form input:focus{
+  border: 1px solid #3498db;
+  outline: none;
+}
+.icon{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+.icon .bi{
+  font-size: 1.5rem;
+  margin-left: -40px;
+  margin-bottom: 5px;
+  color: #ccc;
+}
+.form-register form .btn{
+  width: 30%;
+  margin: 0 auto;
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+.form-register form .btn:hover{
+  background-color: #2980b9;
+}
+
+/* end register form */
+/*start login form */
+.form-login{
+  width: 30%;
+  margin: 2rem auto;
+  padding: 30px;
+  background-color: #f8f9fa;
+  border-radius: 5px;
+  box-shadow: 0 0 20px 0 hsl(204, 70%, 53%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.form-login form{
+  width: 100%;
+  margin-top: 20px;
+  padding: 20px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+}
+.form-login h1{
+  margin-bottom: 5px;
+  text-align: center;
+  font-weight: 600;
+  font-size: 20px;
+  position: relative;
+}
+.form-login h1::after{
+  content: '';
+  position: absolute;
+  display: block;
+  width: 60px;
+  height: 3px;
+  margin-top: 20px;
+  background-color: hsl(204, 70%, 53%);
+  left: 50%;
+  transform: translateX(-50%);
+}
+.form-login form label {
+  margin-bottom: 10px;
+  font-weight: 600;
+  font-size: 16px;
+  margin-left: 10px;
+}
+.form-login form input{
+  width: 100%;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-bottom: 5px;
+}
+.form-login form input:focus{
+  border: 1px solid #3498db;
+  outline: none;
+}
+.icon{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 5px;
+}
+.icon .bi{
+  font-size: 1.5rem;
+  margin-left: -40px;
+  margin-bottom: 5px;
+  color: #ccc;
+}
+.form-login form .btn{
+  width: 50%;
+  margin: 0 auto;
+  padding: 8px 20px;
+  border-radius: 5px;
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+.form-login form .btn:hover{
+  background-color: #2980b9;
+}
+.text{
+  margin: 7px 0;
+  text-align: center;
+  font-size: 12px;
+}
+.image{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 5px 0;
+  gap: 10px;
+}
+.image a {
+  color: #3498db;
+  text-decoration: none;
+  font-size: 12px;
+  border: 1px solid #3498db;
+  padding: 4px 10px;
+  border-radius: 5px;
+}
+.image img{
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+}
+.link{
+  margin-top: 20px;
+  font-size: 12px;
+}
+.link a{
+  text-decoration: none;
+}
+.error{
+  color: red;
+  margin-left: 10px;
+  margin-top: -15px;
+  font-size: 15px;
+  font-weight: 600;
+}
